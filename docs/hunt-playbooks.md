@@ -10,7 +10,7 @@ The copilot's built-in hunt suggestions, mapped to MITRE ATT&CK tactics. Each fi
 - Block/rate-limit offending IPs at the perimeter; force password resets on targeted accounts.
 - Pivot: `logons by <user>` to see the full authentication timeline around the burst.
 
-## Valid Accounts / Anomalous Geo (TA0003, TA0001-adjacent)
+## Valid Accounts (T1078) / Anomalous Geo (Initial Access, TA0001)
 
 **Trigger:** > 30% of a user's activity from an unusual geo (≥ 5 events).
 
